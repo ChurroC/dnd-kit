@@ -1,5 +1,20 @@
 # @dnd-kit/react
 
+## 0.0.3
+
+### Patch Changes
+
+- [#1440](https://github.com/clauderic/dnd-kit/pull/1440) [`86e5191`](https://github.com/clauderic/dnd-kit/commit/86e519187f0072761321e44cb11abf2f4797169e) Thanks [@github-actions](https://github.com/apps/github-actions)! - Fixed a bug where `useDraggable`, `useDroppable` and `useSortable` would not un-register from the old manager and re-register themselves with the new manager when its reference changes.
+
+- [#1440](https://github.com/clauderic/dnd-kit/pull/1440) [`5ccd5e6`](https://github.com/clauderic/dnd-kit/commit/5ccd5e668fb8d736ec3c195116559cb5c5684e80) Thanks [@github-actions](https://github.com/apps/github-actions)! - Update modifiers on the `Draggable` instances when `useDraggable` receives updated modifiers
+
+- [#1440](https://github.com/clauderic/dnd-kit/pull/1440) [`8f421ee`](https://github.com/clauderic/dnd-kit/commit/8f421ee00201435ead41ac4c45dae72bf030b5a5) Thanks [@github-actions](https://github.com/apps/github-actions)! - Add `"use client"` hint to `<DragDropProvider>` component to mark it as a client component boundary.
+
+- Updated dependencies [[`8e45c2a`](https://github.com/clauderic/dnd-kit/commit/8e45c2a9d750283296b56b05a887be89fe7b0184), [`5ccd5e6`](https://github.com/clauderic/dnd-kit/commit/5ccd5e668fb8d736ec3c195116559cb5c5684e80), [`886de33`](https://github.com/clauderic/dnd-kit/commit/886de33d0df851ebdcb3fcf2915f9623069b06d1)]:
+  - @dnd-kit/dom@0.0.3
+  - @dnd-kit/abstract@0.0.3
+  - @dnd-kit/state@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes
