@@ -11,10 +11,12 @@
     "lint": "eslint ./stories/*.stories.tsx --max-warnings 0"
   },
   "dependencies": {
+    "@codesandbox/sandpack-react": "^2.14.4",
     "@dnd-kit/abstract": "*",
     "@dnd-kit/dom": "*",
-    "@dnd-kit/react": "*",
     "@dnd-kit/helpers": "*",
+    "@dnd-kit/react": "*",
+    "@storybook/addon-queryparams": "^7.0.1",
     "@tanstack/react-virtual": "^3.0.0-beta.54",
     "clipboard": "^2.0.11",
     "prismjs": "^1.29.0",
